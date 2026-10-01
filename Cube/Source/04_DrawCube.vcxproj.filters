@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01_CORE">
+      <UniqueIdentifier>{1a7b4638-2908-48da-8ec3-7bf6fc4d6aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_BASE">
+      <UniqueIdentifier>{d5262999-134d-446c-a1c6-de64f69e449b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_RESOURCE">
+      <UniqueIdentifier>{ac6acdb5-878d-49cc-9220-6b6fd21b28d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_CORE\01_COMMON">
+      <UniqueIdentifier>{3079b3ee-4041-4994-b2cc-910989b67264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_CORE\00_EXTERN HEADER">
+      <UniqueIdentifier>{90115453-5def-4583-86b5-d7d17234a79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_CORE\02_MGR">
+      <UniqueIdentifier>{a51a318a-d2ec-404d-a236-ae97ce6e8e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99_APP">
+      <UniqueIdentifier>{987f9c9a-a5ed-4138-988f-437a8c04e4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99_APP\00_GAME_MGR">
+      <UniqueIdentifier>{fde9459c-e32e-47bf-9884-89a2b79f63e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_CORE\03_UTIL">
+      <UniqueIdentifier>{63b8b1c3-25a2-42ad-a267-1693b8eb7c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_CORE\04_BUFFER">
+      <UniqueIdentifier>{5325d2cd-189d-4ef2-8139-9f29fef8f2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99_APP\01_CUBE">
+      <UniqueIdentifier>{5f2efeb1-aa15-403d-9c56-873dc85971f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>00_BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>00_BASE</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>01_CORE\00_EXTERN HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="external.h">
+      <Filter>01_CORE\00_EXTERN HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_UTIL.h">
+      <Filter>01_CORE\01_COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMgr.h">
+      <Filter>99_APP\00_GAME_MGR</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageNode.h">
+      <Filter>01_CORE\01_COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="MYtype.h">
+      <Filter>01_CORE\00_EXTERN HEADER</Filter>
+    </ClInclude>
+    <ClInclude Include="BASE_Object.h">
+      <Filter>01_CORE\01_COMMON</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_Buffer.h">
+      <Filter>01_CORE\04_BUFFER</Filter>
+    </ClInclude>
+    <ClInclude Include="SH_VertexBuffer.h">
+      <Filter>01_CORE\04_BUFFER</Filter>
+    </ClInclude>
+    <ClInclude Include="MemManager.h">
+      <Filter>01_CORE\03_UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>01_CORE\03_UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="VoidList.h">
+      <Filter>01_CORE\03_UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>99_APP\01_CUBE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>00_BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="winmain.cpp">
+      <Filter>00_BASE</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMgr.cpp">
+      <Filter>99_APP\00_GAME_MGR</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageNode.cpp">
+      <Filter>01_CORE\01_COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_UTIL.cpp">
+      <Filter>01_CORE\01_COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="BASE_Object.cpp">
+      <Filter>01_CORE\01_COMMON</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_Buffer.cpp">
+      <Filter>01_CORE\04_BUFFER</Filter>
+    </ClCompile>
+    <ClCompile Include="SH_VertexBuffer.cpp">
+      <Filter>01_CORE\04_BUFFER</Filter>
+    </ClCompile>
+    <ClCompile Include="MemManager.cpp">
+      <Filter>01_CORE\03_UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>01_CORE\03_UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="VoidList.cpp">
+      <Filter>01_CORE\03_UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>99_APP\01_CUBE</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

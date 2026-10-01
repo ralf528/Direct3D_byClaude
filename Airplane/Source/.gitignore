@@ -1,0 +1,109 @@
+# ============================================
+#  Visual Studio / C++ (Win32 · DirectX) 프로젝트
+# ============================================
+
+# --- 빌드 산출물 디렉터리 ---
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+ipch/
+
+# --- 컴파일/링크 중간 산출물 ---
+*.obj
+*.o
+*.pch
+*.ipch
+*.idb
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.tlog
+*.res
+*.tli
+*.tlh
+*.exp
+*.map
+*.meta
+*.lastbuildstate
+*.recipe
+*.CppClean.log
+*.FileListAbsolute.txt
+
+# --- 실행 파일 / 라이브러리 (빌드로 재생성됨) ---
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# SH_UTIL 은 SH_UTIL_STATIC 으로 소스 컴파일되므로 아래 사본은 불필요
+dll/
+lib/
+
+# --- Visual Studio 사용자/IDE 설정 ---
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.aps
+*.ncb
+*.vspscc
+*.vssscc
+
+# --- JetBrains Rider / ReSharper ---
+.idea/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# --- Visual Studio Code ---
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# --- CMake (사용 시) ---
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+compile_commands.json
+
+# --- 백업 / 임시 파일 ---
+_backup_cp949/
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+*~
+*.swp
+
+# --- OS 생성 파일 ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# --- 크래시 덤프 ---
+*.dmp
+*.stackdump
